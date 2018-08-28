@@ -237,4 +237,4 @@ if(comando === "setcargo"){
   
 );
 
-client.login(config.token);
+client.login(process.env.token);
